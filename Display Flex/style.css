@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 100vh;
+    width: 13.3%;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 5vh;
+    margin: 0;
+}
+a:hover {
+   
+    color: #df0e62;
+}
+main {
+    width: 89%;
+}
+.algo {
+    font-size: 12.8px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+   
+
+}
+header ul {
+    list-style: none;
+    padding: 0;
+
+}
+.algo2{
+    font-size: 12.8px;
+    width: 17.53px;
+    fill: white;
+}
+.algo2:hover{
+    fill: #df0e62;
+}
+#display{
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+.algo3{
+    font-size: 12.8px;
+    width: 13.53px;
+    fill: white;
+}
+.algo3:hover{
+    fill: #df0e62;
+}
+#centro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+}
+.center
+{
+    text-align: center;
+    font-size: 64px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+}
+section {
+    background-color: #000;
+    padding-top: 10px;
+}
+.texto{
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#butao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df0e62;
+    height: 65px;
+    width: 175px;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#butao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df0e62;
+    height: 50px;
+    width: 175px;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    height:300px;
+    width:33%;
+}
+.image img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+#test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+#cara{
+    border-radius: 50%;
+}
+#cara2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#textocara{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 64px;
+}
+#textin{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    color:rgba(255, 255, 255, 0.288);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#biografia{
+    height: 1150px;
+    width: 81%;
+    padding-left: 19%;
+    background-color: rgb(26,26,26);
+    padding-top: 10vh;
+    margin: 0;
+}
+.image svg{
+    position: relative;
+    top: 70%;
+    left: -50%;
+    height: 20px;
+    fill: white;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 1s;
+}
+.image:hover svg{
+    opacity: 1;
+    top: 50%;
+   
+}
+.image:hover img{
+    filter: brightness(50%);
+}
+#tit{
+    color: white;
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#tit2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 32px;
+}
+.textt{font-size: 16px;
+color: rgba(255, 255, 255, 0.479);
+}
+.textt a{
+color: #df0e62;
+text-decoration: none;
+}
+.svm svg{
+    height: 15px;
+}
+.svm{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.479);
+}
+#certo{
+    display: flex;
+}
+#blogs{
+    background-color: black;
+    height: 1300px;
+    width: 81%;
+    padding-left: 19%;
+    margin: 0;
+    padding-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dblog{color: white;
+display: flex;
+width: 55%;
+justify-content: space-around;
+}
+.dblog img{
+   
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;}
+.forme{
+    height: 700px;
+    width: 81%;
+    padding-left: 19%;
+    background-color: rgb(26,26,26);
+    padding-top: 10vh;
+    margin: 0;
+}
+#forme{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#formes{
+    color: white;
+    font-size: 35px;
+}
+label{
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 50px;
+    flex-flow: column;
+
+    flex-wrap: wrap;
+}
+input{
+    background-color: rgb(26,26,26);
+   
+    border-bottom: solid 1px white;
+    border-right: none;
+}
+.name2{
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.name2 input{
+    height: 200px;
+    width: 670px;
+}
+#acaba{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
